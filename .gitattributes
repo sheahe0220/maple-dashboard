@@ -1,2 +1,5 @@
 # store text as LF on every PC (2026-09-28)
 * text=auto eol=lf
+# installers are CP949 + CRLF on purpose (cmd labels, Korean echo): keep the bytes exactly
+*.cmd -text
+*.bat -text
