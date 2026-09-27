@@ -1,0 +1,2 @@
+# store text as LF on every PC (2026-09-28)
+* text=auto eol=lf
